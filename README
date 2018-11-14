@@ -1,0 +1,4 @@
+Mininet custom leaf and spine topology for ONOS segment routing
+
+sudo env ONOS=10.0.0.73 mn --custom sr.py --link tc,bw=10 \
+--topo=sr '--controller=remote,ip=$ONOS,port=6653'
